@@ -1,0 +1,9 @@
+ADD_EXECUTABLE(hello main.cpp)
+
+
+# 指定最终的目标二进制的位置
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+# 在哪里 ADD_EXECUTABLE 或 ADD——LIBRARY，
+# 如果需要改变目标存放路径，就在哪里加入上述的定义
+
